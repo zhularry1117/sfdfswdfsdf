@@ -33,6 +33,7 @@ while 1:
     state=0
 
  # ================= PLAY =================
+  t=0
  if state==1:
   t+=1
   if t%INC_T==0 and spd<SPD_MAX:
